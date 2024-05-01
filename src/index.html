@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo List DApp</title>
+</head>
+<body>
+  <h1>Todo List</h1>
+  <form id="newTaskForm">
+    <input type="text" id="newTask" placeholder="Enter task content..." required>
+    <button type="button" id="newTaskButton">Add Task</button>
+  </form>
+  <table id="taskList">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Content</th>
+        <th>Completed</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <form id="toggleCompletedForm">
+    <input type="number" id="taskId" placeholder="Enter task ID..." required>
+    <button type="button" id="toggleCompletedButton">Toggle Completed</button>
+  </form>
+    <!-- SCRIPT -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
