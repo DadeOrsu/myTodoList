@@ -12,6 +12,12 @@
     <input type="text" id="newTask" placeholder="Enter task content..." required>
     <button type="button" id="newTaskButton">Add Task</button>
   </form>
+  
+  <form id="toggleCompletedForm">
+    <input type="number" id="taskId" placeholder="Enter task ID..." required>
+    <button type="button" id="toggleCompletedButton">Toggle Completed</button>
+  </form>
+
   <table id="taskList">
     <thead>
       <tr>
@@ -22,10 +28,6 @@
     </thead>
     <tbody></tbody>
   </table>
-  <form id="toggleCompletedForm">
-    <input type="number" id="taskId" placeholder="Enter task ID..." required>
-    <button type="button" id="toggleCompletedButton">Toggle Completed</button>
-  </form>
     <!-- SCRIPT -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
