@@ -56,7 +56,7 @@ App = {
           var completed = task[2];
 
           // Render task
-          var taskTemplate = "<tr><th>" + id + "</th><td>" + content + "</td><td>" + completed + "</td></tr>";
+          var taskTemplate = "<tr><th>" + id + "</th><td>" + content + "</td><td>" + (completed ? "&#x2714;" : "&#x2718;") + "</td></tr>";
           taskList.append(taskTemplate);
         });
       }
