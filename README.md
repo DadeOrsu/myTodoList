@@ -8,12 +8,14 @@ This project is a decentralized application (DApp) built on Ethereum that allows
 - **Truffle**: Framework for Ethereum development, testing, and deployment.
 - **Ganache**: A personal Ethereum blockchain for local development and testing.
 - **Node.js**: Used to create the backend of the application and interact with the Ethereum blockchain.
+- **Metamask**:  Secure wallet for Ethereum assets and DApps, enabling easy interaction with the blockchain.
 
 ## Dependencies
 Make sure you have installed the following dependencies before running the application:
 - [Truffle](https://www.trufflesuite.com/docs/truffle/getting-started/installation)
 - [Ganache](https://www.trufflesuite.com/ganache)
-- [Node.js (version 18.15.0)](https://nodejs.org/en/download/) 
+- [Node.js (version 18.15.0)](https://nodejs.org/en/download/)
+- [Metamask] (https://metamask.io/) 
 
 ## Setup
 1. Clone this repository to your computer.
